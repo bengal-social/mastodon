@@ -45,7 +45,7 @@ commands:
             bundle config without 'development production'
           name: Set bundler settings
       - ruby/install-deps:
-          bundler-version: '2.3.26'
+          bundler-version: '2.4.10'
           key: ruby<< parameters.ruby-version >>-gems-v1
           with-cache: false
   wait-db:
@@ -64,7 +64,7 @@ jobs:
       - checkout
       - install-system-dependencies
       - install-ruby-dependencies:
-          ruby-version: '3.0'
+          ruby-version: '3.0.6'
       - node/install-packages:
           cache-version: v1
           pkg-manager: yarn
