@@ -47,6 +47,7 @@ commands:
       - ruby/install-deps:
           bundler-version: '2.3.26'
           key: ruby<< parameters.ruby-version >>-gems-v1
+          with-cache: false
   wait-db:
     steps:
       - run:
