@@ -1,6 +1,6 @@
-# Smilodon - a soft fork of Mastodon
+# Bengal.Social - a soft fork of Mastodon
 
-Welcome! :wave: Smilodon is my soft fork of Mastodon to include some changes to the main Mastodon app that works for me.
+Welcome! :wave: Bengal.Social is my soft fork of Mastodon to include some changes to the main Mastodon app that works for me.
 As a soft fork, I don't plan on this project getting far away from the core features of Mastodon.
 99% of the codebase will remain the same.
 
